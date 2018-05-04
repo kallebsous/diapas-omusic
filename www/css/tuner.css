@@ -1,0 +1,64 @@
+* {
+	margin:0;
+	padding:0;
+	font-size: 0.5rem;
+}
+
+html {
+	background-color: #F2EAE4;
+}
+
+.tuner-display {
+	width: 100%;
+	background: #73675C;
+	position: relative;
+}
+
+.tuner-display .chord-show {
+	margin: auto;
+    text-align: center;
+    font-size: 8rem;
+    padding: 20%;
+    font-weight: bold;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.tuner-display .app-name {
+	margin: auto;
+	text-align: center;
+	font-size: 4.5rem;
+	padding: 20%;
+	font-weight: bold;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.chord {
+	margin-top: 20%;
+	margin-left: 14%;
+}
+
+button {
+    background-color: #40352C;
+    border: 1px solid #666;
+    color: white;
+    padding: 1rem 4rem;
+    cursor: pointer;
+    margin-right: 4%;
+    width:40%;
+    height: 6%;
+    border-radius: 5px;
+    font-size: 1.5rem;
+}
+
+.chord-content {
+	margin: 8% 0%;
+	width:100%;
+}
+
+.chord-content:after {
+    content: "";
+    clear: both;
+    display: table;
+}

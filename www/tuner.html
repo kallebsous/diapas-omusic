@@ -1,0 +1,49 @@
+<html>
+	<head>
+        <meta charset="utf-8">
+        <title>Quick Tuner</title>
+    </head>
+    <body>
+		<audio id="audio1">
+			<source src="audio/e-acute.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio2">
+			<source src="audio/b.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio3">
+			<source src="audio/g.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio4">
+			<source src="audio/d.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio5">
+			<source src="audio/a.mp3" type="audio/mpeg">
+		</audio>
+		<audio id="audio6">
+			<source src="audio/e-bold.mp3" type="audio/mpeg">
+		</audio>
+        <main>
+            <div class="tuner-display">
+				<p class="app-name">Quick Tuner</p>
+				<p class="chord-show" style="display:none"></p>
+    		</div>
+			<div class="chord">
+				<div class="chord-content">
+					<button id="chord-e-acute" class="button">E</button>
+					<button id="chord-d" class="button">D</button>
+				</div>
+				<div class="chord-content">
+					<button id="chord-b" class="button">B</button>
+					<button id="chord-a" class="button">A</button>
+				</div>
+				<div class="chord-content">
+					<button id="chord-g" class="button">G</button>
+					<button id="chord-e-bold" class="button">E</button>
+				</div>
+			</div>
+		</main>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/tuner.js"></script>
+		<link rel="stylesheet" href="css/tuner.css">
+	</body>
+</html>
